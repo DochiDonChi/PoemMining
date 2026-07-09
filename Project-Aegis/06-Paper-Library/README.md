@@ -43,6 +43,8 @@ Read in this order:
 5. `P014-Evaluation-Benchmarking-Suite/ebook-bilingual.md`
 6. `P004-TradingAgents/ebook-bilingual.md`
 7. `P006-FinMem/ebook-bilingual.md`
+8. `P022-StockAgent/ebook-bilingual.md`
+9. `P024-StockBench/ebook-bilingual.md`
 
 ## Current priority papers
 
@@ -65,13 +67,13 @@ Read in this order:
 
 ### Tier 3 — Candidate expansion
 
-| Paper ID | Paper | Why it matters |
-|---|---|---|
-| P022 | StockAgent | Multi-agent trading simulation |
-| P023 | AFIB / SuperInvesting Benchmark | Financial intelligence benchmark candidate |
-| P024 | StockBench | Dynamic trading benchmark |
-| P026 | TrustTrade | Trust and risk-aware trading agent candidate |
-| P027 | TradingGPT | Memory-based multi-agent trading candidate |
+| Paper ID | Paper | Why it matters | Mobile file |
+|---|---|---|---|
+| P022 | StockAgent | Multi-agent trading simulation | `ebook-bilingual.md` |
+| P023 | AFIB / SuperInvesting Benchmark | Financial intelligence benchmark candidate | pending |
+| P024 | StockBench | Dynamic trading benchmark | `ebook-bilingual.md` |
+| P026 | TrustTrade | Trust and risk-aware trading agent candidate | pending |
+| P027 | TradingGPT | Memory-based multi-agent trading candidate | pending |
 
 ## Important rule
 
@@ -79,7 +81,7 @@ Do not treat a paper as fully understood just because an ebook exists. Many curr
 
 ## Current learning recommendation
 
-Start with P001, then P016, then P025. After these three, read P013 and P014 to understand benchmark and governance issues. Then read P004 and P006 to understand multi-agent trading architecture and memory-agent design.
+Start with P001, then P016, then P025. After these three, read P013 and P014 to understand benchmark and governance issues. Then read P004 and P006 to understand multi-agent trading architecture and memory-agent design. After that, read P022 and P024 to understand realistic trading simulation and dynamic trading benchmarks.
 
 When ready, return to ChatGPT and say:
 
