@@ -6,50 +6,60 @@ This folder is the reading layer of Project Aegis.
 
 The methodology files, audit files, and databases are useful for research management, but they are not the best place for day-to-day reading. This library is designed to make each important paper easier to read, discuss, and turn into knowledge.
 
-## How to use this library
+## How to use this library on mobile
 
-Each paper should have its own folder:
+For mobile reading, open the bilingual ebook first:
 
 ```text
 06-Paper-Library/
   P001-Agentic-Trading/
-    summary.md
-    notes.md
-    figures.md
-    tables.md
-    questions.md
-    project-aegis-relevance.md
+    ebook-bilingual.md
 ```
 
-## Reading workflow
+The bilingual ebook is the most convenient file for phone reading because each chapter includes:
+
+1. 中文理解
+2. English version
+3. Key vocabulary
+
+## Recommended reading workflow
 
 For each paper, use this reading order:
 
-1. `summary.md` — read the short explanation first.
-2. `notes.md` — read the paper section by section.
-3. `figures.md` — understand important diagrams and frameworks.
-4. `tables.md` — extract evidence from tables.
-5. `questions.md` — answer supervisor / reviewer style questions.
-6. `project-aegis-relevance.md` — decide how the paper supports Project Aegis.
+1. `ebook-bilingual.md` — best for phone reading and bilingual understanding.
+2. `summary.md` — short recap.
+3. `questions.md` — supervisor / reviewer style questions.
+4. `ebook.md` — English-only mobile version if needed.
+5. Full extraction files under `03-Full-Extraction/` — for research-depth work.
+
+## Current bilingual reading path
+
+Read in this order:
+
+1. `P001-Agentic-Trading/ebook-bilingual.md`
+2. `P016-FinRobot-Equity-Research/ebook-bilingual.md`
+3. `P025-FinRpt/ebook-bilingual.md`
+4. `P013-Finance-Agent-Benchmark/ebook-bilingual.md`
+5. `P014-Evaluation-Benchmarking-Suite/ebook-bilingual.md`
 
 ## Current priority papers
 
 ### Tier 1 — Must read first
 
-| Paper ID | Paper | Why it matters |
-|---|---|---|
-| P001 | Agentic Trading | Field-level evidence map and reproducibility gap |
-| P016 | FinRobot Equity Research | First strong equity research agent anchor |
-| P025 | FinRpt | Second strong equity research report generation anchor |
+| Paper ID | Paper | Why it matters | Mobile file |
+|---|---|---|---|
+| P001 | Agentic Trading | Field-level evidence map and reproducibility gap | `ebook-bilingual.md` |
+| P016 | FinRobot Equity Research | First strong equity research agent anchor | `ebook-bilingual.md` |
+| P025 | FinRpt | Second strong equity research report generation anchor | `ebook-bilingual.md` |
 
 ### Tier 2 — Read next
 
-| Paper ID | Paper | Why it matters |
-|---|---|---|
-| P013 | Finance Agent Benchmark | Real-world finance research task difficulty |
-| P014 | Evaluation and Benchmarking Suite | Evaluation lifecycle and governance |
-| P004 | TradingAgents | Multi-agent trading baseline |
-| P006 | FinMem | Memory-based trading agent baseline |
+| Paper ID | Paper | Why it matters | Mobile file |
+|---|---|---|---|
+| P013 | Finance Agent Benchmark | Real-world finance research task difficulty | `ebook-bilingual.md` |
+| P014 | Evaluation and Benchmarking Suite | Evaluation lifecycle and governance | `ebook-bilingual.md` |
+| P004 | TradingAgents | Multi-agent trading baseline | pending |
+| P006 | FinMem | Memory-based trading agent baseline | pending |
 
 ### Tier 3 — Candidate expansion
 
@@ -63,14 +73,20 @@ For each paper, use this reading order:
 
 ## Important rule
 
-Do not treat a paper as fully understood just because an extraction file exists. Many current extractions are abstract-level plus interpretation. Full understanding requires section-level, table-level, and figure-level reading.
+Do not treat a paper as fully understood just because an ebook exists. Many current ebooks are based on abstract-level extraction plus Project Aegis interpretation. Full understanding requires section-level, table-level, and figure-level reading.
 
-## Current reading recommendation
+## Current learning recommendation
 
-Start with:
+Start with P001, then P016, then P025. After these three, read P013 and P014 to understand benchmark and governance issues.
 
-1. P001 — to understand the whole field and its reproducibility problem.
-2. P016 — to understand equity research agents.
-3. P025 — to understand equity research report generation.
+When ready, return to ChatGPT and say:
 
-After these three, read P013 and P014 to understand benchmark and governance issues.
+```text
+开始领读 P001
+```
+
+or:
+
+```text
+Start guided reading for P001
+```
