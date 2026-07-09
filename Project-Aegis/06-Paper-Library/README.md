@@ -45,6 +45,9 @@ Read in this order:
 7. `P006-FinMem/ebook-bilingual.md`
 8. `P022-StockAgent/ebook-bilingual.md`
 9. `P024-StockBench/ebook-bilingual.md`
+10. `P023-AFIB-SuperInvesting-Benchmark/ebook-bilingual.md`
+11. `P026-TrustTrade/ebook-bilingual.md`
+12. `P027-TradingGPT/ebook-bilingual.md`
 
 ## Current priority papers
 
@@ -70,10 +73,10 @@ Read in this order:
 | Paper ID | Paper | Why it matters | Mobile file |
 |---|---|---|---|
 | P022 | StockAgent | Multi-agent trading simulation | `ebook-bilingual.md` |
-| P023 | AFIB / SuperInvesting Benchmark | Financial intelligence benchmark candidate | pending |
+| P023 | AFIB / SuperInvesting Benchmark | Financial intelligence benchmark candidate | `ebook-bilingual.md` |
 | P024 | StockBench | Dynamic trading benchmark | `ebook-bilingual.md` |
-| P026 | TrustTrade | Trust and risk-aware trading agent candidate | pending |
-| P027 | TradingGPT | Memory-based multi-agent trading candidate | pending |
+| P026 | TrustTrade | Trust and risk-aware trading agent candidate | `ebook-bilingual.md` |
+| P027 | TradingGPT | Memory-based multi-agent trading candidate | `ebook-bilingual.md` |
 
 ## Important rule
 
@@ -81,7 +84,7 @@ Do not treat a paper as fully understood just because an ebook exists. Many curr
 
 ## Current learning recommendation
 
-Start with P001, then P016, then P025. After these three, read P013 and P014 to understand benchmark and governance issues. Then read P004 and P006 to understand multi-agent trading architecture and memory-agent design. After that, read P022 and P024 to understand realistic trading simulation and dynamic trading benchmarks.
+Start with P001, then P016, then P025. After these three, read P013 and P014 to understand benchmark and governance issues. Then read P004 and P006 to understand multi-agent trading architecture and memory-agent design. After that, read P022 and P024 to understand realistic trading simulation and dynamic trading benchmarks, then read P023, P026, and P027 to cover financial intelligence, trust, and memory-agent lineage.
 
 When ready, return to ChatGPT and say:
 
