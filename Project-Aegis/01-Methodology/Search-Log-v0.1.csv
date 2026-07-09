@@ -1,0 +1,12 @@
+search_id,search_round,date_utc,source,search_string,filters_or_scope,reported_result_count,screened_count,retained_count,retained_paper_ids,notes
+S001,Search-Round-01,2026-07-09,arXiv direct open,https://arxiv.org/abs/2605.19337,Known seed record,1,1,1,P001,Verified title authors abstract and key reproducibility claims from arXiv page
+S002,Search-Round-01,2026-07-09,arXiv direct open,https://arxiv.org/abs/2508.00828,Known candidate record,1,1,1,P013,Verified title authors dataset size 537 questions and 46.8 percent best accuracy from arXiv page
+S003,Search-Round-01,2026-07-09,arXiv direct open,https://arxiv.org/abs/2411.08804,Known candidate record,1,1,1,P016,Verified title authors three-agent structure and open-source statement from arXiv page
+S004,Search-Round-01,2026-07-09,arXiv direct open,https://arxiv.org/abs/2602.19073,Known candidate record,1,1,1,P014,Verified title authors evaluation suite lifecycle and governance framing from arXiv page
+S005,Search-Round-01,2026-07-09,General web search,"LLM financial agents trading agents benchmark evaluation reproducibility arXiv 2025 2026",Broad web search,Not captured,Manually screened top results,Multiple,"P013; P014; P015; P019",Initial exploratory search; not fully reproducible because result count and ranking were not captured
+S006,Search-Round-01,2026-07-09,General web search,"large language model agents finance survey investment management 2025 2026",Broad web search,Not captured,Manually screened top results,Multiple,"P007; P008; P020",Initial exploratory search; metadata requires cleanup
+S007,Search-Round-01,2026-07-09,General web search,"multi-agent LLM financial trading framework FinRobot FinMem TradingAgents StockBench",Broad web search,Not captured,Manually screened top results,Multiple,"P004; P005; P006; P016",Initial exploratory search; need source-by-source rerun
+S008,Search-Round-01,2026-07-09,General web search,"risk first evaluation multi-agent LLM financial markets 2026",Broad web search,Not captured,Manually screened top results,Multiple,P010,Metadata and source details require verification
+
+# Methodological warning
+# Search-Round-01 is a mixed exploratory and seed-verification round. It is useful for building the first database but insufficient for a publishable systematic review. Search-Round-02 must record exact database result counts, date/time, filters, screened counts, excluded counts, and retained counts.
