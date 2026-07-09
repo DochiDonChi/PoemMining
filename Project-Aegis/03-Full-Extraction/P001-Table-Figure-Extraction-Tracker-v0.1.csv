@@ -1,0 +1,15 @@
+item_id,item_type,source_label,priority,extraction_status,why_it_matters,project_aegis_use,next_action
+P001-FIG-01,figure,Figure 1 Agency Spectrum of Trading Systems,high,pending,Defines boundary from prediction models to trading agents,Useful for distinguishing trading agents from investment research agents,Extract figure content and boundary logic
+P001-FIG-02,figure,Figure 2 Reasoning Flow Diagram,high,pending,Shows agent reasoning and feedback loop,Useful for designing Project Aegis research-agent pipeline,Extract figure components and translate to research workflow
+P001-FIG-03,figure,A-C-A or architecture figures,medium,pending,Shows architecture capability adaptation lens,Useful but should not be treated as validated taxonomy,Locate and extract relevant figure
+P001-FIG-04,figure,Challenge or future direction figures,medium,pending,May identify research gaps,Useful for research gap map,Locate and extract relevant figure
+P001-TAB-01,table,Table 1 Related surveys and benchmarks,high,pending,Positions P001 against prior reviews,Supports novelty of audit-oriented review,Extract comparison criteria
+P001-TAB-03,table,Table 3 Study selection summary,high,partial,Provides 92 candidate records 77 included 19 primary 58 background,Supports evidence scope and PRISMA-style counts,Verify full table and notes
+P001-TAB-PROTOCOL,table,Protocol reporting tables,high,pending,Direct evidence for split cost survivorship execution reporting gaps,Supports reproducibility-gap claim,Locate and extract all protocol reporting tables
+P001-TAB-REPRO,table,Reproducibility tier tables,high,pending,Direct evidence for R0-R3 reproducibility claim,Supports auditability and reproducibility claims,Extract R0-R3 definition and study counts
+P001-TAB-LEDGER,table,Evidence ledger tables,high,pending,Identifies primary subset and background tier,Supports claim-evidence ledger,Extract per-study classifications
+P001-TAB-CHECKLIST,table,Reporting checklist tables,medium,pending,Translates gaps into reporting expectations,Useful for Project Aegis methodology design,Extract checklist items
+P001-SECTION-02,section,Review Protocol and Evidence Scope,high,partial,Defines evidence boundary and denominators,Use to refine Project Aegis systematic review boundary,Complete section notes
+P001-SECTION-13,section,Challenges and Future Directions,high,pending,Likely contains future research gaps,Use to update Research Gap Map,Extract full section
+P001-APP-S1,appendix,Supplementary screening log,medium,pending,Supports screening quality audit,Useful for reproducible review design,Check availability and extract if accessible
+P001-APP-S3,appendix,Extraction-level audit,medium,pending,Supports coding reliability claim,Useful for coding protocol design,Check availability and extract if accessible
