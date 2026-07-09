@@ -41,6 +41,8 @@ Read in this order:
 3. `P025-FinRpt/ebook-bilingual.md`
 4. `P013-Finance-Agent-Benchmark/ebook-bilingual.md`
 5. `P014-Evaluation-Benchmarking-Suite/ebook-bilingual.md`
+6. `P004-TradingAgents/ebook-bilingual.md`
+7. `P006-FinMem/ebook-bilingual.md`
 
 ## Current priority papers
 
@@ -58,8 +60,8 @@ Read in this order:
 |---|---|---|---|
 | P013 | Finance Agent Benchmark | Real-world finance research task difficulty | `ebook-bilingual.md` |
 | P014 | Evaluation and Benchmarking Suite | Evaluation lifecycle and governance | `ebook-bilingual.md` |
-| P004 | TradingAgents | Multi-agent trading baseline | pending |
-| P006 | FinMem | Memory-based trading agent baseline | pending |
+| P004 | TradingAgents | Multi-agent trading baseline | `ebook-bilingual.md` |
+| P006 | FinMem | Memory-based trading agent baseline | `ebook-bilingual.md` |
 
 ### Tier 3 — Candidate expansion
 
@@ -77,7 +79,7 @@ Do not treat a paper as fully understood just because an ebook exists. Many curr
 
 ## Current learning recommendation
 
-Start with P001, then P016, then P025. After these three, read P013 and P014 to understand benchmark and governance issues.
+Start with P001, then P016, then P025. After these three, read P013 and P014 to understand benchmark and governance issues. Then read P004 and P006 to understand multi-agent trading architecture and memory-agent design.
 
 When ready, return to ChatGPT and say:
 
