@@ -1,0 +1,5 @@
+supervisor_id,name,university,department,region,research_fit_area,fit_score_0_100,official_profile_url,email,latest_relevant_papers,phd_opening_status,funding_notes,contact_status,next_action,verification_status,notes
+S001,TBD,TBD,TBD,Hong Kong,AI in Finance / LLM Agents / FinTech,,TBD,TBD,TBD,TBD,TBD,not_contacted,verify official profile,unverified,Seed row only
+S002,TBD,TBD,TBD,Singapore,AI Governance / Financial AI / Agent Evaluation,,TBD,TBD,TBD,TBD,TBD,not_contacted,verify official profile,unverified,Seed row only
+S003,TBD,TBD,TBD,UK,FinTech / AI Evaluation / Financial NLP,,TBD,TBD,TBD,TBD,TBD,not_contacted,verify official profile,unverified,Seed row only
+S004,TBD,TBD,TBD,Australia,Machine Learning in Finance / Asset Pricing,,TBD,TBD,TBD,TBD,TBD,not_contacted,verify official profile,unverified,Seed row only
