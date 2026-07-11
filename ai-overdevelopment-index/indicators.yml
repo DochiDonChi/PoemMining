@@ -1,0 +1,155 @@
+version: 0.1
+project: AI Overdevelopment Index
+score_range: 0-100
+
+modules:
+  capital_overheating:
+    weight: 25
+    description: Measures whether AI investment and financing are expanding faster than verified returns.
+    indicators:
+      - name: hyperscaler_ai_capex_growth
+        weight: 8
+        frequency: quarterly
+        green: "<20% YoY"
+        yellow: "20-40% YoY"
+        red: ">40% YoY without matching revenue growth"
+      - name: ai_startup_funding_growth
+        weight: 5
+        frequency: quarterly
+        green: "funding growth aligned with revenue traction"
+        yellow: "funding growth outpaces revenue"
+        red: "funding boom with weak monetization"
+      - name: ai_related_ipo_activity
+        weight: 4
+        frequency: monthly
+        green: "selective IPOs with profitability path"
+        yellow: "many early-stage AI IPOs"
+        red: "AI label drives weak-quality IPOs"
+      - name: valuation_premium
+        weight: 8
+        frequency: weekly
+        green: "premium supported by EPS revisions"
+        yellow: "premium expands faster than EPS"
+        red: "premium expands while EPS revisions fall"
+
+  supply_overbuild:
+    weight: 25
+    description: Measures whether AI infrastructure supply is becoming excessive.
+    indicators:
+      - name: gpu_utilization_rate
+        weight: 8
+        frequency: monthly
+        green: ">85%"
+        yellow: "70-85%"
+        red: "<70% with new capacity still coming online"
+      - name: cloud_gpu_rental_price
+        weight: 5
+        frequency: weekly
+        green: "stable or rising"
+        yellow: "mild decline"
+        red: "sharp decline"
+      - name: hbm_inventory_days
+        weight: 5
+        frequency: monthly
+        green: "stable/low"
+        yellow: "rising"
+        red: "rising rapidly while pricing weakens"
+      - name: semiconductor_equipment_orders
+        weight: 4
+        frequency: monthly
+        green: "book-to-bill > 1"
+        yellow: "book-to-bill around 1"
+        red: "book-to-bill < 1 for multiple months"
+      - name: data_center_occupancy
+        weight: 3
+        frequency: quarterly
+        green: "high occupancy"
+        yellow: "occupancy softening"
+        red: "vacancy rises despite new construction"
+
+  demand_validation:
+    weight: 30
+    description: Measures whether AI adoption is producing real revenue, productivity, and cash flow.
+    indicators:
+      - name: ai_revenue_growth
+        weight: 8
+        frequency: quarterly
+        green: "revenue grows near capex growth"
+        yellow: "revenue grows but lags capex"
+        red: "revenue flat while capex rises"
+      - name: enterprise_ai_paid_seats
+        weight: 4
+        frequency: quarterly
+        green: "paid seats and retention improving"
+        yellow: "paid seats grow but usage unclear"
+        red: "trial usage high but conversion weak"
+      - name: labor_productivity_growth
+        weight: 6
+        frequency: quarterly
+        green: "visible productivity acceleration"
+        yellow: "mixed evidence"
+        red: "no productivity improvement despite AI spend"
+      - name: operating_margin_impact
+        weight: 6
+        frequency: quarterly
+        green: "AI improves margins"
+        yellow: "neutral margin impact"
+        red: "AI spend compresses margins"
+      - name: free_cash_flow_after_ai_capex
+        weight: 6
+        frequency: quarterly
+        green: "FCF stable or improving"
+        yellow: "FCF temporarily pressured"
+        red: "FCF deteriorates structurally"
+
+  market_mania:
+    weight: 20
+    description: Measures whether investor behavior has become speculative.
+    indicators:
+      - name: ai_etf_flows
+        weight: 5
+        frequency: weekly
+        green: "steady flows"
+        yellow: "accelerating flows"
+        red: "parabolic inflows followed by reversal"
+      - name: options_call_skew
+        weight: 4
+        frequency: daily
+        green: "balanced options market"
+        yellow: "call demand elevated"
+        red: "extreme call demand and leverage"
+      - name: media_ai_frequency
+        weight: 3
+        frequency: weekly
+        green: "normal attention"
+        yellow: "rapidly rising attention"
+        red: "AI dominates unrelated sectors"
+      - name: earnings_revision_breadth
+        weight: 5
+        frequency: weekly
+        green: "positive revisions broadening"
+        yellow: "revisions concentrated"
+        red: "price rises while revisions turn negative"
+      - name: market_breadth
+        weight: 3
+        frequency: daily
+        green: "broad participation"
+        yellow: "narrow leadership"
+        red: "index highs driven by few AI names"
+
+risk_bands:
+  - band: normal_expansion
+    score: "0-30"
+    action: "Monitor only"
+  - band: watch_zone
+    score: "31-50"
+    action: "Start weekly review"
+  - band: overheating
+    score: "51-70"
+    action: "Reduce aggressive risk-taking; hedge crowded AI exposure"
+  - band: bubble_risk
+    score: "71-85"
+    action: "Cut exposure; focus on second-order beneficiaries and defensives"
+  - band: repricing_risk
+    score: "86-100"
+    action: "Assume sharp repricing risk; prioritize capital preservation"
