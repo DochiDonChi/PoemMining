@@ -1,0 +1,2 @@
+contact_id,supervisor_id,name,university,email,date_contacted,email_version,response_status,response_date,meeting_date,follow_up_date,next_action,notes
+C001,S001,TBD,TBD,TBD,,,,,,,,not_started,Use after official email verification

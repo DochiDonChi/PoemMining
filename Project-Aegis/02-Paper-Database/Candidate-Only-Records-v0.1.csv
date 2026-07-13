@@ -1,0 +1,9 @@
+paper_id,title,year,current_source,current_url,reason_moved_to_candidate_only,what_must_be_verified,before_using_as_evidence
+P007,Large Language Model Agents for Investment Management,2025,TO_VERIFY,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5447274,Metadata incomplete and source/venue uncertain,"Exact title; authors; venue/source; version date; paper type; abstract claims",Do not cite as evidence until metadata and contribution are verified
+P008,Large Language Model Agents in Finance: A Survey,2025,TO_VERIFY,https://aclanthology.org/2025.findings-emnlp.972.pdf,Authors and venue details incomplete,"ACL record; full author list; venue; paper ID; scope; taxonomy",Do not cite as evidence until metadata and scope are verified
+P009,Large Language Models in Equity Markets,2025,Frontiers,https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1608365/full,Authors and DOI not yet verified,"Full author list; DOI; article number; exact title; scope",Do not cite as evidence until full metadata is verified
+P010,A Risk-First Evaluation Framework for Multi-Agent LLM Systems in Financial Markets,2026,TO_VERIFY,https://aclanthology.org/2026.findings-acl.1934.pdf,Metadata and source details unverified,"Existence; exact title; authors; venue; risk framework details",Do not use as support for risk-first claim until verified
+P011,Evaluating LLMs in Finance Requires Explicit Bias Assessment,2026,arXiv,https://arxiv.org/abs/2602.14233,Metadata incomplete,"Exact title; authors; arXiv record; abstract claims; scope",Do not use as evidence for bias/auditability until verified
+
+# Note
+# These records remain useful candidates, but they should not be treated as evidence in the living review until verified. They should be excluded from core counts unless Search-Round-02 or metadata cleanup confirms them.
